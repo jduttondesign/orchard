@@ -41,7 +41,7 @@ var sum = function (){
 
 console.log("hardcoded sum in ES5", sum());
 //shorthand way of the above code
- var sum = () => {
+ var sum2= () => {
  	let a=1, b=2;
 	return a+b;
  }
@@ -76,7 +76,7 @@ let r = `hello my name is ${m}`;
 console.log("r", r);
 
 //object literal property shorthand
-let wow="Hi there", ES6="ES6", numNum=()=>(console.log("howdy")}
+let wow="Hi there", es6="ES6", numNum=()=>{console.log("howdy")};
 let myOldObject={
 	wow:wow,
 	es6:es6,
@@ -90,18 +90,18 @@ let myNewObject={
 
 console.log("myNewObject", myNewObject);
 
-}
+
 
 //method properties - define objects inside functionss
-var e5Obj {
-	foo:function(){console.log("foo")};
-	bar:function(){console.log("foo")};
+var e5Obj = {
+	foo:function(){console.log("foo")},
+	bar:function(){console.log("foo")}
 }
 console.log("e5Obj", e5Obj);
 
 var es6Obj={
 	foo(){console.log("foo")},
-	bar(){console.log("bar"}
+	bar(){console.log("bar")}
 }
 
 console.log("es6Obj", es6Obj);
